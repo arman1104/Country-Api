@@ -32,7 +32,7 @@ function App() {
 
   // Handle input change
   const handleChange = (event) => {
-    setCountry(event.target.value.trim());
+    setCountry(event.target.value);
   };
 
   return (
