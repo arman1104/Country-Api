@@ -17,7 +17,6 @@ function App() {
       })
       .then((jsonData) => {
         setData(jsonData[0]);
-        console.log(jsonData);
         setError(""); // Clear error on success
       })
       .catch(() => {
