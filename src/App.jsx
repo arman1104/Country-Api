@@ -17,6 +17,7 @@ function App() {
       })
       .then((jsonData) => {
         setData(jsonData[0]);
+        console.log(jsonData);
         setError(""); // Clear error on success
       })
       .catch(() => {
@@ -49,7 +50,10 @@ function App() {
       {data ? (
         <div className="container">
           <img src={data.flags.png} alt={`${data.name.common} flag`} />
-          <h1>{data.name.common}</h1>
+          <h1>
+            {data.name.common}{" "}
+            <span style={{ color: "orangered" }}>({data.capital})</span>
+          </h1>
           <h3>{data.region}</h3>
           <div className="para-item-container">
             <p>
