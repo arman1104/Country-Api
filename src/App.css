@@ -4,6 +4,15 @@ body {
   align-items: center;
   height: 100vh;
 }
+.main-container {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 10px;
+}
 
 .container {
   width: 300px;
@@ -24,6 +33,9 @@ h1 {
   margin-left: 15px;
   color: #000;
 }
+.capital {
+  color: orangered;
+}
 
 h3 {
   font-size: 1.8rem;
@@ -36,32 +48,55 @@ h3 {
 }
 
 p {
-  font-size: 30px;
+  font-size: 20px;
   color: #000;
 }
 
 span {
   font-size: 1.3rem;
-  color: #000;
+  /* color: #000; */
 }
 
 .loading {
   color: #fff;
 }
 
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 75%;
+}
+
 input {
-  height: 2.2rem;
-  width: 100%;
-  border-radius: 10px;
+  height: 2.5rem;
+  width: 80%;
+  border-radius: 15px;
   border: 1px solid #fff;
   outline: none;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #000;
   background-color: #fff;
   margin-bottom: 1rem;
 }
 
+.search-icon {
+  width: 2.9rem;
+  height: auto;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  outline: none;
+  color: gray;
+  background-color: #fff;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
 .error {
   color: white;
   font-size: 1.2rem;
