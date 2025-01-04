@@ -48,7 +48,7 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 30px;
   color: #000;
 }
 
@@ -59,6 +59,7 @@ span {
 
 .loading {
   color: #fff;
+  font-size: 20px;
 }
 
 .input-container {
